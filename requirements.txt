@@ -1,0 +1,8 @@
+multipledispatch==0.6.0
+numpy==1.16.2
+Pillow==6.0.0
+pygame==1.9.5
+PyOpenGL==3.1.0
+PyQt5==5.12.1
+PyQt5-sip==4.19.15
+six==1.12.0
