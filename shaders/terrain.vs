@@ -2,12 +2,14 @@
 
 layout (location = 0) in vec3 aPos;
 
-out vec2 texCoords;
+
 uniform mat4 model;
 uniform mat4 view;
 uniform mat4 perspective;
 
 uniform sampler2D heightMap;
+
+out vec2 texCoords;
 
 void main()
 {

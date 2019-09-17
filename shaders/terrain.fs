@@ -1,8 +1,7 @@
 #version 330
 in vec2 texCoords;
-out vec4 FragColor;
+
 uniform sampler2D terrainTexture;
-uniform sampler2D rewardMap;
 uniform sampler2D groundTruth;
 
 uniform sampler2D tx1;
@@ -11,7 +10,13 @@ uniform sampler2D tx3;
 uniform sampler2D tx4;
 uniform sampler2D tx5;
 
+uniform sampler2D predictedRewards;
+uniform sampler2D predictedNovelty;
+uniform sampler2D path;
+
 uniform int mode;
+
+out vec4 FragColor;
 
 void main()
 {    
